@@ -12,9 +12,9 @@ window.addEventListener('DOMContentLoaded', function(){
     monForm.onsubmit = function (event) {
     var limiteValue = monInput.value;
     
-    if (monInput.value === "" || limiteValue.length > 8 || monInput.value === "<script>") {
+    if (monInput.value === "" || limiteValue.length >= 8 || monInput.value === "<script>") {
         event.preventDefault();
-       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres !! ');
+       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres. ');
     } 
     else {
         console.log(limiteValue.length);
