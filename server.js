@@ -700,7 +700,10 @@ socketIo.on('connection', function (websocketConnection) {
 
 
   websocketConnection.on('monNameID', function (monNameID) {
-    mesObjetsCarreNonGlobal.monName = monNameID.monName
+    var secureName = monNameID.monName
+    if (secureName.length < 8) {
+      mesObjetsCarreNonGlobal.monName = monNameID.monName
+    }
     console.log(monNameID.monName);
 
   });

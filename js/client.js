@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', function(){
     
     if (monInput.value === "" || limiteValue.length > 8 || monInput.value === "<script>") {
         event.preventDefault();
-       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres !! (je me suis fais trollé sur Discord pendant ma phase de test :D )');
+       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres !! ');
     } 
     else {
         console.log(limiteValue.length);
