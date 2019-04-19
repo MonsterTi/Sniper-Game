@@ -334,7 +334,7 @@ socketIo.on('connection', function (websocketConnection) {
 
     // CIBLES FLECHES 1
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.top = maFonctioNumberCible(mouseClick.mouseClickTop, 133, 143)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 19.444761904761905, 19.842857142857142)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 19.444761904761905, 20.292857142857142)
     // CIBLES FLECHES 2
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches2.top = maFonctioNumberCible(mouseClick.mouseClickTop, -4, 6)
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 38.095238095238095, 38.53380952380952)
@@ -528,7 +528,7 @@ socketIo.on('connection', function (websocketConnection) {
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards9.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.20759951749096, 55.59759951749096)
     // CIBLES CANARDS 10
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.top = maFonctioNumberCible(mouseClick.mouseClickTop, 263, 269)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 65.30028950542823, 65.65028950542823)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 65.30028950542823, 65.78028950542823)
 
 
 
