@@ -8,7 +8,8 @@ const port = process.env.PORT;
 //
 const MongoClient = require('mongodb').MongoClient;
 // Il faut installer le module mongodb et faire appel à .MonclientClient
-const urlMd = 'mongodb+srv://nicolas:motdepasse95@sniper-game-d7drt.mongodb.net/test?retryWrites=true';
+// const urlMd = 'mongodb+srv://nicolas:motdepasse95@sniper-game-d7drt.mongodb.net/test?retryWrites=true';
+const urlMd = process.env.MONGODB_URI
 // Nous placons l'url de notre Mongodb
 const dbName = 'game';
 // Le nom de la database, ce n'est pas la collection (voir ligne 24 pour voir le nom de la collection)
