@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function(){
     monForm.onsubmit = function (event) {
     if (monInput.value === "") {
         event.preventDefault();
-       alert('mon if');
+       alert('Vous devez entrer un identifiant');
     } else {
         
         maDivSupp.style.display = "none";
