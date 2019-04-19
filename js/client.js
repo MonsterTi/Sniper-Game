@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function(){
     var limiteValue = monInput.value;
 
     if (monInput.value === "" && limiteValue.length > 8) {
-        event.preventDefault();
+        // event.preventDefault();
        alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres');
     } else {
         console.log(limiteValue.length);
