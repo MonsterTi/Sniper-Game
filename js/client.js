@@ -21,7 +21,6 @@ window.addEventListener('DOMContentLoaded', function(){
     var websocketConnection = io('https://sniper-game.herokuapp.com/');
     // Je défini le port et l'adresse ip de connection
    
-    var testHeroku;
 
     var monNameID = {}
     monNameID.monName = monInput.value 
