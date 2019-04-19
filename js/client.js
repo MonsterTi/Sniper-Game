@@ -10,9 +10,9 @@ window.addEventListener('DOMContentLoaded', function(){
     var monForm = document.getElementById("form_chall");
 
     monForm.onsubmit = function (event) {
-    var limiteValue = parseInt(monInput.value);
+    var limiteValue = monInput.value;
     
-    if (monInput.value === "" || limiteValue > 8) {
+    if (monInput.value === "" || limiteValue.length > 8) {
        alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres');
     } 
     else {
