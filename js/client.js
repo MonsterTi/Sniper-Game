@@ -11,6 +11,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
     monForm.onsubmit = function (event) {
     var limiteValue = monInput.value;
+console.log(limiteValue.length);
 
     if (monInput.value === "" && limiteValue.length >= 8) {
         event.preventDefault();
