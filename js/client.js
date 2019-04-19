@@ -11,13 +11,13 @@ window.addEventListener('DOMContentLoaded', function(){
 
     monForm.onsubmit = function (event) {
     var limiteValue = monInput.value;
-    if (monInput.value === "" && limiteValue.length <= 8 ) {
-    //     event.preventDefault();
-    //    alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres');
+    if (monInput.value === "" && limiteValue.length < 8) {
+        event.preventDefault();
+       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres');
     } else {
         
-        // maDivSupp.style.display = "none";
-        // event.preventDefault();
+        maDivSupp.style.display = "none";
+        event.preventDefault();
 
     var websocketConnection = io('https://sniper-game.herokuapp.com/');
     // Je défini le port et l'adresse ip de connection
