@@ -4,7 +4,7 @@ let server = http.createServer();
 //
 const path = require('path');
 const url = require('url');
-const port = process.env.PORT || 9090;
+const port = process.env.PORT;
 //
 const MongoClient = require('mongodb').MongoClient;
 // Il faut installer le module mongodb et faire appel à .MonclientClient
