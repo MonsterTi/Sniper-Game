@@ -334,28 +334,28 @@ socketIo.on('connection', function (websocketConnection) {
 
     // CIBLES FLECHES 1
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.top = maFonctioNumberCible(mouseClick.mouseClickTop, 133, 143)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 19.444761904761905, 19.642857142857142)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 19.444761904761905, 19.842857142857142)
     // CIBLES FLECHES 2
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches2.top = maFonctioNumberCible(mouseClick.mouseClickTop, -4, 6)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 38.095238095238095, 38.23380952380952)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 38.095238095238095, 38.53380952380952)
     // CIBLES FLECHES 3
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches3.top = maFonctioNumberCible(mouseClick.mouseClickTop, 362, 373)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches3.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 44.027619047619044, 44.167619047619044)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches3.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 44.027619047619044, 44.367619047619044)
     // CIBLES FLECHES 4
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches4.top = maFonctioNumberCible(mouseClick.mouseClickTop, 240, 247)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches4.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 46.88369119420989, 46.99369119420989)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches4.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 46.88369119420989, 47.19369119420989)
     // CIBLES FLECHES 5
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches5.top = maFonctioNumberCible(mouseClick.mouseClickTop, 155, 168)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches5.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.11857142857143, 55.20857142857143)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches5.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.11857142857143, 55.30857142857143)
     // CIBLES FLECHES 6
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches6.top = maFonctioNumberCible(mouseClick.mouseClickTop, 299, 305)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches6.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 56.48809523809524, 56.60809523809524)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches6.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 56.48809523809524, 56.76809523809524)
     // CIBLES FLECHES 7
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches7.top = maFonctioNumberCible(mouseClick.mouseClickTop, 228, 236)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches7.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 63.86857142857142, 63.96857142857142)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches7.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 63.86857142857142, 64.26857142857142)
     // CIBLES FLECHES 8
     mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches8.top = maFonctioNumberCible(mouseClick.mouseClickTop, 395, 402)
-    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches8.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 74.60796139927623, 74.72796139927623)
+    mesObjetsCarreNonGlobal.cibles.ciblesFleches.ciblesFleches8.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 74.60796139927623, 74.92796139927623)
     ////////////////////////////////////////////////////////////////////////////////////////
     //    
     //
@@ -501,34 +501,34 @@ socketIo.on('connection', function (websocketConnection) {
 
     // CIBLES CANARDS 1
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.top = maFonctioNumberCible(mouseClick.mouseClickTop, 297, 300)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 22.758866103739444, 22.93980699638118)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 22.758866103739444, 23.13980699638118)
     // CIBLES CANARDS 2
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards2.top = maFonctioNumberCible(mouseClick.mouseClickTop, 406, 410)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 27.261761158021713, 27.361761158021713)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 27.261761158021713, 27.461761158021713)
     // CIBLES CANARDS 3
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards3.top = maFonctioNumberCible(mouseClick.mouseClickTop, 359, 364)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards3.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 35.886610373944514, 36.086610373944514)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards3.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 35.886610373944514, 36.186610373944514)
     // CIBLES CANARDS 4
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards4.top = maFonctioNumberCible(mouseClick.mouseClickTop, 296, 301)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards4.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 36.95351025331725, 37.15351025331725)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards4.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 36.95351025331725, 37.25351025331725)
     // CIBLES CANARDS 5
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards5.top = maFonctioNumberCible(mouseClick.mouseClickTop, 1, 5)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards5.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 30.539324487334136, 30.739324487334136)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards5.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 30.539324487334136, 30.899324487334136)
     // CIBLES CANARDS 6
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards6.top = maFonctioNumberCible(mouseClick.mouseClickTop, 271, 279)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards6.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 44.35145958986731, 44.47145958986731)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards6.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 44.35145958986731, 44.65145958986731)
     // CIBLES CANARDS 7
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards7.top = maFonctioNumberCible(mouseClick.mouseClickTop, 195, 200)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards7.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 48.784354644149576, 48.914354644149576)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards7.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 48.784354644149576, 49.194354644149576)
     // CIBLES CANARDS 8
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards8.top = maFonctioNumberCible(mouseClick.mouseClickTop, 182, 186)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards8.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.87104945717732, 56.07104945717732)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards8.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.87104945717732, 56.17104945717732)
     // CIBLES CANARDS 9
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards9.top = maFonctioNumberCible(mouseClick.mouseClickTop, 287, 293)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards9.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.20759951749096, 55.40759951749096)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards9.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 55.20759951749096, 55.59759951749096)
     // CIBLES CANARDS 10
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.top = maFonctioNumberCible(mouseClick.mouseClickTop, 263, 269)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 65.30028950542823, 65.50028950542823)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards10.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 65.30028950542823, 65.65028950542823)
 
 
 
