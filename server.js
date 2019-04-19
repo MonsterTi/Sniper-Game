@@ -500,8 +500,8 @@ socketIo.on('connection', function (websocketConnection) {
     ///////////////////////////////// FIN DES CIBLES FLECHES ///////////////////////////////////
 
     // CIBLES CANARDS 1
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.top = maFonctioNumberCible(mouseClick.mouseClickTop, 297, 300)
-    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 22.758866103739444, 23.13980699638118)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.top = maFonctioNumberCible(mouseClick.mouseClickTop, 297, 310)
+    mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards1.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 22.758866103739444, 23.23980699638118)
     // CIBLES CANARDS 2
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards2.top = maFonctioNumberCible(mouseClick.mouseClickTop, 406, 410)
     mesObjetsCarreNonGlobal.cibles.ciblesCanards.ciblesCanards2.left = maFonctioNumberCible(mouseClick.mouseClickLeft, 27.261761158021713, 27.461761158021713)
