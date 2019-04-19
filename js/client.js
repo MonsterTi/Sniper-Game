@@ -12,12 +12,9 @@ window.addEventListener('DOMContentLoaded', function(){
     monForm.onsubmit = function (event) {
     var limiteValue = parseInt(monInput.value);
     
-    if (monInput.value === "") {
-       alert('Vous devez entrer un identifiant');
+    if (monInput.value === "" && limiteValue < 8) {
+       alert('Vous devez entrer un identifiant, ne pas dépasser 8 caractéres');
     } 
-    if (limiteValue < 8) {
-        alert('Ne pas dépasser 8 caractéres');
-    }
     else {
         console.log(limiteValue.length);
         maDivSupp.style.display = "none";
