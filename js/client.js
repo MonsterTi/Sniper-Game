@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', function(){
     
     var monNameID = {}
     monNameID.monName = monInput.value 
-    websocketConnection.emit('monNameID', monNameID);
+    // websocketConnection.emit('monNameID', monNameID);
 
 
     var maDivBackground = window.document.createElement('div');
