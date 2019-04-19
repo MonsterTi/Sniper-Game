@@ -93,8 +93,8 @@ socketIo.on('connection', function (websocketConnection) {
         if (err) {
           console.log();
         } else {
-          websocketConnection.emit('listedesjoueurs', docs);
-          console.log(docs);
+          // websocketConnection.emit('listedesjoueurs', docs);
+          // console.log(docs);
         }
       });
     });
