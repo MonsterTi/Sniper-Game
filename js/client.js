@@ -17,8 +17,7 @@ window.addEventListener('DOMContentLoaded', function(){
         
         maDivSupp.style.display = "none";
         event.preventDefault();
-    var testPort = process.env.PORT
-    var websocketConnection = io(testPort);
+    var websocketConnection = io('http://sniper-game.herokuapp.com');
     // Je défini le port et l'adresse ip de connection
    
     var monNameID = {}
