@@ -1,0 +1,16 @@
+{
+  "name": "sniper-game2",
+  "version": "0.0.1",
+  "description": "mon jeu",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nicolas Tanriverdi",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.2.3",
+    "socket.io": "^2.2.0"
+  }
+}

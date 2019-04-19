@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+        <style>
+                .maDivLogin {
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: url("http://www.cross-code.com/page/css/img/topbar-bg.png");
+                }
+                .div-identification {
+                    background: rgba(243, 240, 240, 0.45);
+                    border-radius: 10px;
+                    width: 530px;
+                    height: 170px;
+                    text-align: center;
+                }
+                .div-identification input {
+                    width: 400px;
+                    height: 29px;
+                    border: 5px solid #985669;
+                    font-size: 19px;
+                    margin-bottom: 9px;
+                }
+                .div-identification button {
+                    width: 169px;
+                    height: 38px;
+                    font-size: 20px;
+                }
+                .div-identification h1 {
+                    margin-bottom: 7px;
+                }
+                .lesScores {
+                    background: #65656578;
+                    top: 0px;
+                    height: 65px;
+                    width: 100%;
+                    position: absolute;
+                    display: inline-flex;
+                }
+                ul {
+                    margin-top: 11px;
+                }
+    ul li {
+        font-family: sans-serif;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        text-shadow: rgb(0, 0, 0) 0px 1px 3px;
+    }
+    .cible1H {
+       right: 29.5%;
+       top: 537px;
+       font-family: sans-serif;
+       position: absolute;
+       background-repeat: no-repeat;
+       height: 40px;
+       width: 50px;
+       background-image: url('../images/vent.png');
+       background-size: 46px 40px;
+    }
+    .cible2H {
+       text-align: right;
+       right: 18.1%;
+       top: 537px;
+       position: absolute;
+       background-repeat: no-repeat;
+       height: 40px;
+       width: 50px;
+       font-size: 33px;
+       background-size: 46px 40px;
+    }
+    .cible1Hb {
+       right: 29.5%;
+       font-family: sans-serif;
+       top: 600px;
+       position: absolute;
+       background-repeat: no-repeat;
+       height: 40px;
+       width: 50px;
+       background-image: url('../images/vent.png');
+       background-size: 46px 40px;
+    }
+    .cible2Hb {
+       text-align: right;
+       right: 18.1%;
+       top: 600px;
+       position: absolute;
+       background-repeat: no-repeat;
+       height: 40px;
+       width: 50px;
+       font-size: 33px;
+       background-size: 46px 40px;
+    }
+    #chargement {
+    display: none;
+    padding: 6px;
+    border-radius: 10px;
+    background:rgba(243, 240, 240, 0.89);
+    width: 466px;
+    top: 70px;
+    position: absolute;
+    left: 36%;
+    text-align: center;
+                }
+    #chargement button {
+                    width: auto;
+                    height: 38px;
+                    font-size: 20px;
+                }
+    #chargement ul li {
+        color: black;
+        text-shadow: rgb(213, 222, 194) 0px 1px 3px;
+        text-align: left;
+    }
+                </style>
+    <div class="maDivLogin">
+        <div class="div-identification">
+            <h1>Veuillez entrer votre identifiant</h1>
+            <form method="get" id="form_chall">
+            <input type="text" id="monInput" value=""><br>
+            <button type="submit">Démarrer le jeu</button>
+            </form>
+        </div>
+    </div>
+    <div id="chargement">
+        <h3>Informations à savoir</h3>
+        <p style="font-weight: bold">Vous devez tirer sur les cibles qui ne sont pas marquées par des croix.</p>
+        <img src="../images/vent.png" style="height: 50px;
+        width: 47px;" alt=""> <p style="font-weight: bold"> Corresponds au vent et le chiffre à côté à l'intensité du vent,  vous devez viser en fonction de l'intensité du vent.</p>
+        <h3>Les points :</h3>
+        <ul>
+            <li>Le vent de force 0 = 1 point</li>
+            <li>Le vent de force 1 = 2 points</li>
+            <li>Le vent de force 2 = 3 points</li>
+        </ul>
+        <p style="font-weight: bold"> La partie va démarrer automatiquement dés qu'un second joueur sera connecté.</p>
+        
+        <button id="testbutton">Veuillez patienter..</button>
+    </div>
+    <div class="lesScores">
+        <ul>
+        <li id="J0"></li>
+        <li id="J1"></li>
+        </ul>
+        <ul>
+        <li id="J2"></li>
+        <li id="J3"></li>
+        </ul> 
+        <ul>
+        <li id="J4"></li>
+        <li id="J5"></li>
+        </ul>
+        <ul>
+        <li id="J6"></li>
+        <li id="J7"></li>
+        </ul>
+        <ul>
+        <li id="J8"></li>
+        <li id="J9"></li>
+        </ul>           
+    </div>
+    <audio id="audio" src="audio/sound.wav" ></audio>
+    <script src="js/client.js"></script>
+    <script>
+    var test = window.document.getElementById('testbutton');
+    test.onclick = function () {
+        alert('ca fonctionne')
+    }
+    </script>
+</body>
+</html>
