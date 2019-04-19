@@ -17,8 +17,8 @@ window.addEventListener('DOMContentLoaded', function(){
         
         maDivSupp.style.display = "none";
         event.preventDefault();
-
-    var websocketConnection = io('http://127.0.0.1:9090');
+    var testPort = process.env.PORT
+    var websocketConnection = io(testPort);
     // Je défini le port et l'adresse ip de connection
    
     var monNameID = {}
